@@ -1,0 +1,21 @@
+abbr{
+	cursor: help;
+}
+
+button{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+input{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+textarea{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}

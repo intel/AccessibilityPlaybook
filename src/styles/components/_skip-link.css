@@ -1,0 +1,20 @@
+.skip-link:not(:focus){
+	position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  display: block;
+  background-color: #fff;
+  padding: 0.5em;
+  top: 0;
+  transform: translateY(0);
+}

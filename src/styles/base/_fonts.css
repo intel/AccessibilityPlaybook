@@ -1,0 +1,25 @@
+/* headings */
+
+@font-face {
+  font-family: "merriweather-regular";
+  src: url("../fonts/merriweather/Merriweather-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "merriweather-bold";
+  src: url("../fonts/merriweather/Merriweather-Bold.otf") format("opentype");
+}
+
+/* body */
+
+@font-face {
+  font-family: "source-sans-pro-regular";
+  src: url("../fonts/source-sans-pro/SourceSansPro-Regular.otf") format("opentype");
+}
+
+/* code */
+
+@font-face {
+  font-family: "intel-one-mono";
+  src: url("../fonts/intel-one-mono/IntelOneMono-Regular.otf") format("opentype");
+}

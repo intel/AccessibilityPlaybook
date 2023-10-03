@@ -1,0 +1,30 @@
+/* content that isn't in other areas */
+
+p{
+	margin-top:0;
+}
+
+pre{
+	tab-size: 2;
+}
+
+/* address
+blockquote
+details
+dialog
+div
+dd
+dl
+dt
+fieldset
+figure
+form
+hgroup
+hr
+li
+main
+ol
+search
+table
+ul
+*/

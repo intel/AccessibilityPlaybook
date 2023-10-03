@@ -1,0 +1,9 @@
+main{
+	font-size: 1.25rem;
+	grid-column: 2 / 6;
+	padding:1rem;
+}
+
+main:focus{
+	outline: 0;
+}

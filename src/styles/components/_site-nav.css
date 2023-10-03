@@ -1,0 +1,19 @@
+.nav--site{
+	grid-column: 1 / -1;
+}
+
+.nav--site ul{
+	border-block-end: 1px solid;
+	display:flex;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.nav--site a{
+	color:var(--classic-blue);
+	display:block;
+	font-size:1.25rem;
+	padding:0.623em;
+	text-decoration:none;
+}
