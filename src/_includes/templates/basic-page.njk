@@ -1,0 +1,49 @@
+---
+title: basic page structure
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/styles/styles.css" rel="stylesheet">
+  <title>{{title}}</title>
+</head>
+<body>
+	<a class="skip-link" href="#main">skip to the main content</a>
+	<header>
+		<svg aria-label="Logo" class="header--logo" height="100" width="100" viewBox="0 0 100 100">
+  		<text alignment-baseline="middle" text-anchor="middle" x="50" y="50" style="fill:currentColor">Logo?</text>
+  		<rect fill="none" height="100%" stroke="currentColor" stroke-width="1" width="100%"></rect>
+  		<path stroke="currentColor" d="M0 0, L100 100"></path>
+  		<path stroke="currentColor" d="M0 100, L100 0"></path>
+		</svg>
+		<div class="header--title">
+			<a class="header--homepage-link" href="/">Open Source Accessibility Playbook</a>
+		</div>
+	</header>
+	<nav aria-label="site" class="nav--site">
+		<ul>
+			<li>
+				<a href="#">Nav Link 1</a>
+			</li>
+			<li>
+				<a href="/for-software-teams/">For Software Teams</a>
+			</li>
+			<li>
+				<a href="#">Nav Link 3</a>
+			</li>
+			<li>
+				<a href="#">Nav link 4</a>
+			</li>
+		</ul>
+	</nav>
+  <main id="main" tabindex="-1">
+			<h1>{{title | safe}}</h1>
+			{{content | safe}}
+  </main>
+	<footer>
+		Here's my footer
+	</footer>
+</body>
+</html>
