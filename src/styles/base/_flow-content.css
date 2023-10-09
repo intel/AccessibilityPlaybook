@@ -9,6 +9,29 @@ pre{
 	tab-size: 2;
 }
 
+table{
+	border-collapse: collapse;
+	border-top: 2px solid var(--black);
+	caption-side: bottom;
+	font-size: 1rem;
+}
+
+caption{
+  padding-left: 0.623em;
+  padding-top: 0;
+  text-align: left;
+  border-top: 1px solid var(--carbon-shade2);
+  color: var(--black);
+}
+
+th, td{
+	padding:0.5em;
+}
+
+td{
+	border-top: 1px solid var(--carbon-tint1);
+}
+
 /* address
 blockquote
 details
