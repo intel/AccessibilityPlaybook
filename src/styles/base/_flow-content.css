@@ -17,11 +17,23 @@ table{
 }
 
 caption{
-  padding-left: 0.623em;
-  padding-top: 0;
+  padding-inline-start: 0.623em;
+  padding-block-start: 0;
   text-align: left;
-  border-top: 1px solid var(--carbon-shade2);
+  border-block-start: 1px solid var(--carbon-shade2);
   color: var(--black);
+}
+
+dl dt:not(:first-of-type){
+	margin-block-start: 0.623em;
+}
+
+dt{
+	font-weight: 500;
+}
+
+dd{
+	margin-inline-start: 0;
 }
 
 th, td{
@@ -37,9 +49,7 @@ blockquote
 details
 dialog
 div
-dd
 dl
-dt
 fieldset
 figure
 form
