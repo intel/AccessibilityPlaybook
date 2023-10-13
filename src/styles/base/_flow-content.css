@@ -1,7 +1,7 @@
 /* content that isn't in other areas */
 
 p{
-	margin-top:0;
+	margin-block-start:0;
 }
 
 pre{
@@ -11,7 +11,7 @@ pre{
 
 table{
 	border-collapse: collapse;
-	border-top: 2px solid var(--black);
+	border-block-start: 2px solid var(--black);
 	caption-side: bottom;
 	font-size: 1rem;
 }
@@ -41,7 +41,7 @@ th, td{
 }
 
 td{
-	border-top: 1px solid var(--carbon-tint1);
+	border-block-start: 1px solid var(--carbon-tint1);
 }
 
 /* address
