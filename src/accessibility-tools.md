@@ -5,6 +5,15 @@ title: Accessibility Tools
 
 <p>Intro text</p>
 
+<h2>Working with GitHub repositories</h2>
+
+<dl>
+	<dt><a href="https://github.com/github/markdownlint-github">Markdown Linter</a></dt>
+	<dd>The Markdown Linter provides their recommended <a href="https://github.com/DavidAnson/markdownlint">markdownlint</a> configurations, and additional rules for use on GitHub open source and internal projects</dd>
+	<dt><a href="https://github.com/marketplace/actions/accessibility-alt-text-bot">Accessibility alt-text bot</dt>
+	<dd>This GitHub action reminds users to add alternative text to their images.</dd>
+</dl>
+
 <h2>Code testing</h2>
 
 <table class="table">
