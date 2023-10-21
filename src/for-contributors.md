@@ -30,7 +30,7 @@ It's essential that your project's documentation is accessible. This includes:
 
 Consider adding an <code>accessibility.md</code> file to the root of your repo. This is where you can list specifics about the accessibility of your project.
 
-## Adding an accessibility.md file
+## Add an accessibility.md file
 
 An <code>accessibility.md</code> file should include the following information:
 
