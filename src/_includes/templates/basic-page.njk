@@ -33,16 +33,16 @@ title: basic page structure
 		</button>		
 		<ul>
 			<li>
-				<a href="/for-contributors/">Contributors</a>
+				<a {{ 'aria-current=page' if '/for-contributors' in page.url }} href="/for-contributors/">Contributors</a>
 			</li>
 			<li>
-				<a href="/for-consumers/">Consumers</a>
+				<a {{ 'aria-current=page' if '/for-consumers' in page.url }} href="/for-consumers/">Consumers</a>
 			</li>
 			<li>
-				<a href="/for-end-users/">End Users</a>
+				<a {{ 'aria-current=page' if '/for-end-users' in page.url }} href="/for-end-users/">End Users</a>
 			</li>
 			<li>
-				<a href="/accessibility-tools/">Accessibility Tools</a>
+				<a {{ 'aria-current=page' if '/accessibility-tools' in page.url }} href="/accessibility-tools/">Accessibility Tools</a>
 			</li>
 		</ul>
 	</nav>
