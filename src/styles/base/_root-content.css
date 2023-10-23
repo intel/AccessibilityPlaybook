@@ -41,3 +41,8 @@ body{
 	white-space: nowrap;
 	width: 1px;
 }
+
+.scrollable{
+	overflow:auto;
+	width:100%;
+}
