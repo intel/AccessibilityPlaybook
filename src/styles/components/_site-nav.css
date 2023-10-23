@@ -59,6 +59,8 @@
 		display: block;
 	}
 	
+	/*  Still waiting on Firefox supporting :has. Once this is supported, the resize observer can be removed so that we're using less JavaScript.
+	
 	body:has(nav button[aria-expanded=false]) > *:not(header){
 		display:block;
 	}
@@ -78,7 +80,17 @@
 	body:has(nav button[aria-expanded=true]) .nav--site ul{
 		border-block-end:none;
 		display:block
+	} 
+	
+	end
+	
+	*/
+
+	.nav--site > button[aria-expanded=true] + ul{
+		display:flex;
+		grid-row: 1 / -1;
 	}
+
 }
 
 .nav--site a{
