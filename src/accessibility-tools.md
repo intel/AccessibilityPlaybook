@@ -31,19 +31,19 @@ title: Accessibility Tools
 			</td>
 			<td>Desktop</td>
 			<td>macOS</td>
-			<td>Useful tool to look at the underlying accessibility of pretty much anything running on macOS, whether it's a web or desktop application. It does require that all of Xcode be downloaded, which is a large application.</td>
+			<td>Useful tool to look at the underlying accessibility of pretty much anything running on macOS, whether it's a web or desktop application. It does require that all of Xcode be downloaded, which is sizable.</td>
 		</tr>
 		<tr>
 			<td>
 				<a href="https://www.deque.com/axe/browser-extensions/">aXe</a>
 			</td>
-			<td>Extension for Chrome, Firefox, Edge</td>
+			<td>Extension for Chromium and Firefox</td>
 			<td>Windows and macOS</td>
 			<td>The aXe extension provides accessibility reporting within the browser’s Dev Tools.</td>
 		</tr>
 		<tr>
 			<td><a href="https://chrispederick.com/work/web-developer/">Web Developer</a></td>
-			<td>Extension for Chrome, Firefox, and Opera</td>
+			<td>Extension for Chromium and Firefox</td>
 			<td>Windows and macOS</td>
 			<td>This long-standing browser extension isn’t specifically for testing web accessibility but it does contain useful tools. For example, it can replace images with their <code class="language-markup">alt</code> text, outline form fields without labels, and display a document's hierarchy of heading elements.</td>
 		</tr>
