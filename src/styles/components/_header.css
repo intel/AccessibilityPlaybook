@@ -15,6 +15,7 @@ header{
 
 .header--homepage-link{
 	color:var(--white);
+	display:inline-block;
 	text-decoration: none;
 }
 

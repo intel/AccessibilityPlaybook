@@ -3,3 +3,11 @@ footer{
 	grid-column: 1 / -1;
 	padding: 1rem;
 }
+
+.footer-content{
+	display:flex;
+	gap:1rem;
+	list-style: none;
+	margin:0;
+	padding:0;
+}

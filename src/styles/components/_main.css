@@ -4,6 +4,18 @@ main{
 	padding:1rem;
 }
 
+@media screen and (max-width:970px) {
+	main{
+		grid-column: 2 / 7;
+	}
+}
+
+@media screen and (max-width:560px) {
+	main{
+		grid-column: 1 / -1;
+	}
+}
+
 main:focus{
 	outline: 0;
 }
