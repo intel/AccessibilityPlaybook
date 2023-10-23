@@ -100,3 +100,17 @@
 	padding:0.623em;
 	text-decoration:none;
 }
+
+.nav--site a:focus-visible{
+	outline:2px solid var(--cobalt-shade2);
+	outline-offset: -4px;
+}
+
+.nav--site [aria-current=page]{
+	background:var(--classic-blue-shade2);
+	color:var(--white);
+}
+
+.nav--site [aria-current=page]:focus-visible{
+	outline-color:var(--white);
+}
