@@ -1,6 +1,6 @@
 ---
 layout: templates/basic-page.njk
-title: Accessibility Tools
+title: Accessibility Tools - Open Source Accessibility Playbook
 ---
 
 <p>Intro text</p>
