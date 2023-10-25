@@ -1,6 +1,6 @@
 ---
 layout: templates/basic-page.njk
-title: For Contributors - Open Source Accessibility Playbook
+title: For Contributors
 ---
 
 <dfn>Contributors</dfn> are people who contribute to OSS (Open Source Software) projects.

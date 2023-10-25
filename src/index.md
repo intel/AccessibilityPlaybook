@@ -1,6 +1,6 @@
 ---
 layout: templates/basic-page.njk
-title: Open Source Accessibility Playbook
+title: "Open Source Accessibility Playbook"
 ---
 
 The primary target audience of this playbook is maintainers of open source software (OSS) projects. The objective of the playbook is to help maintainers improve the accessibility of their projects from the perspective of three stakeholders:
