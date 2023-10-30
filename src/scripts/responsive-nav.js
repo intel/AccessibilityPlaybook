@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function(e){
 		navTaggleBtn.setAttribute("aria-expanded", "true");
 		for(let i=0;i<responsiveElmsToHide.length;i++){
 			responsiveElmsToHide[i].setAttribute("hidden", "");
+			navTaggleBtn.focus();
 		}
 	}
 
