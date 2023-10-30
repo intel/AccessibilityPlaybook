@@ -13,7 +13,7 @@ There are several ways you can show contributors with disabilities, both current
 
 Creating a [contributing file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) for your repository is a great way to let people know how they can contribute to your project. There are several common places to put a <code>contributing</code> file (the project root, in a folder like <code>docs</code> or <code>.github</code>). We prefer putting it in the project root as it's easier for people to find.
 
-In your <code>contributing</code> file, you should clearly state that contributors with disabilities are welcome. You should also invite them to contact the project team if they need an accommodation to be able to contribute. For example: XXXXXXXXXX
+In your <code>contributing</code> file, you should clearly state that contributors with disabilities are welcome. You should also invite them to contact the project team if they need an accommodation to be able to contribute. A good place to put contact details relating to accessibility is in the <code>accessibility.md</code> file in the root of your repo.
 
 Consider adapting the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct for open source communities. This document clearly lays out expectations for anyone contributing to your project.
 
@@ -44,3 +44,4 @@ An <code>accessibility.md</code> file should include the following information:
     * which screen readers do you test with?
     * do you test with Windows high-contrast mode?
     * do you test for keyboard accessibility?
+6. The date that the document was last updated

@@ -30,3 +30,6 @@ If you've got an accessibility issue, please [create an issue on our Github repo
 
 ## Contacting a person about an accessibility barrier
 If you need to contact a person about an accessibility barrier, please email [accessibility@intel.com](mailto:accessibility@intel.com).
+
+## Last updated
+This content was last updated on <time pubdate="2023-10-30">30th October, 2023</time>.
