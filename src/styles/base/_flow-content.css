@@ -1,0 +1,64 @@
+/* content that isn't in other areas */
+
+p{
+	margin-block-start:0;
+}
+
+pre{
+	font-size: 1rem;
+	tab-size: 2;
+}
+
+table{
+	border-collapse: collapse;
+	border-block-start: 2px solid var(--black);
+	caption-side: bottom;
+	font-size: 1rem;
+}
+
+caption{
+  padding-inline-start: 0.623em;
+  padding-block-start: 0;
+  text-align: left;
+  border-block-start: 1px solid var(--carbon-shade2);
+  color: var(--black);
+}
+
+dl dt:not(:first-of-type){
+	margin-block-start: 0.623em;
+}
+
+dt{
+	font-weight: 500;
+}
+
+dd{
+	margin-inline-start: 0;
+}
+
+th, td{
+	padding:0.5em;
+}
+
+td{
+	border-block-start: 1px solid var(--carbon-tint1);
+}
+
+/* address
+blockquote
+details
+dialog
+div
+dl
+fieldset
+figure
+form
+hgroup
+hr
+li
+main
+ol
+search
+table
+ul
+*/

@@ -1,0 +1,30 @@
+header{
+	align-items: center;
+	background: var(--classic-blue);
+	color:var(--white);
+	display:flex;
+	grid-column: 1 / -1;
+	padding:1rem;
+}
+
+.header--title{
+	font-size: 2rem;
+	font-weight: 600;
+	margin-inline-start: 1rem;
+}
+
+.header--homepage-link{
+	color:var(--white);
+	display:inline-block;
+	line-height: 1.25;
+	text-decoration: none;
+}
+
+.header--homepage-link:focus-visible{
+	outline-color: var(--white);
+}
+
+.header--logo{
+	height:auto;
+	width:100px;
+}

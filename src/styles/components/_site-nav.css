@@ -1,0 +1,115 @@
+.nav--site{
+	grid-column: 1 / -1;
+}
+
+.nav--site ul{
+	border-block-end: 1px solid;
+	display:flex;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.nav--site button{
+	align-items: center;
+	background: var(--cobalt-shade2);
+	border:1px solid transparent;
+	color:var(--energy-blue-tint1);
+	display:none;
+	font:inherit;
+	font-size:1.25rem;
+}
+
+.nav--site button:focus-visible{
+	outline-color: var(--energy-blue-tint1);
+	outline-offset: -6px;
+}
+
+.nav--site button svg{
+	margin-inline-end:0.492em;
+}
+
+.nav--site button svg path{
+	color:var(--carbon-shade2);
+}
+
+@media all and (max-width:560px) {
+	
+	.nav--site button{
+		display: flex;
+		padding:0.492em;
+		width:100%;
+	}
+
+	.nav--site button .close{
+		display: none;
+	}
+
+	.nav--site ul{
+		display:none;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	button[aria-expanded=true] .burger{
+		display: none;
+	}
+
+	button[aria-expanded=true] .close{
+		display: block;
+	}
+	
+	/*  Still waiting on Firefox supporting :has. Once this is supported, the resize observer can be removed so that we're using less JavaScript.
+	
+	body:has(nav button[aria-expanded=false]) > *:not(header){
+		display:block;
+	}
+
+	body:has(nav button[aria-expanded=false]) > header{
+		display:flex;
+	}
+
+	body:has(nav button[aria-expanded=true]) .skip-link, header, main, footer{
+		display:none;
+	}
+
+	body:has(nav button[aria-expanded=true]) .nav--site{
+		grid-row: 1 / -1;
+	}
+
+	body:has(nav button[aria-expanded=true]) .nav--site ul{
+		border-block-end:none;
+		display:block
+	} 
+	
+	end
+	
+	*/
+
+	.nav--site > button[aria-expanded=true] + ul{
+		display:flex;
+		grid-row: 1 / -1;
+	}
+}
+
+.nav--site a{
+	color:var(--classic-blue);
+	display:block;
+	font-size:1.25rem;
+	padding:0.623em;
+	text-decoration:none;
+}
+
+.nav--site a:focus-visible{
+	outline:2px solid var(--cobalt-shade2);
+	outline-offset: -4px;
+}
+
+.nav--site [aria-current=page]{
+	background:var(--classic-blue-shade2);
+	color:var(--white);
+}
+
+.nav--site [aria-current=page]:focus-visible{
+	outline-color:var(--white);
+}

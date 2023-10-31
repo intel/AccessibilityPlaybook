@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/styles/styles.css" rel="stylesheet">
+  <title>{{title}}{{ ' - Open Source Accessibility Playbook' if '/index' not in page.filePathStem }}</title>
+</head>
+<body>
+	<a class="skip-link" href="#main">skip to the main content</a>
+	<header>
+		<img alt="logo" class="header--logo" src="/images/header-logo.svg">
+		<div class="header--title">
+			<a class="header--homepage-link" href="/">Open Source Accessibility Playbook</a>
+		</div>
+	</header>
+	<nav aria-label="site" class="nav--site">
+		<button aria-expanded="false" class="nav--site-toggle" type="button">
+			<svg height="20" width="20" viewBox="0 0 20 20">
+				<g class="burger">
+        	<line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" stroke-width="2"></line>
+				</g>
+				<g class="close">
+        	<line x1="3" y1="3" x2="17" y2="17" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="17" x2="17" y2="3" stroke="currentColor" stroke-width="2"></line>
+				</g>
+			</svg>
+			<span>Menu</span>
+		</button>		
+		<ul>
+			<li>
+				<a {{ 'aria-current=page' if '/for-contributors' in page.url }} href="/for-contributors/">Contributors</a>
+			</li>
+			<li>
+				<a {{ 'aria-current=page' if '/for-consumers' in page.url }} href="/for-consumers/">Consumers</a>
+			</li>
+			<li>
+				<a {{ 'aria-current=page' if '/for-end-users' in page.url }} href="/for-end-users/">End Users</a>
+			</li>
+			<li>
+				<a {{ 'aria-current=page' if '/accessibility-tools' in page.url }} href="/accessibility-tools/">Accessibility Tools</a>
+			</li>
+		</ul>
+	</nav>
+  <main id="main" tabindex="-1">
+			<h1>{{title | safe}}</h1>
+			{{content | safe}}
+  </main>
+	<footer>
+		<ul class="footer-content">
+			<li>Content on this site is covered by a <a href="https://creativecommons.org/licenses/by/4.0/">CC By 4.0 license</a></li>
+			<li><a href="https://github.com/intel/AccessibilityPlaybook">This site's GitHub repository</a></li>
+		</ul>
+	</footer>
+	<script src="/scripts/responsive-nav.js"></script>
+</body>
+</html>

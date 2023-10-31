@@ -1,0 +1,30 @@
+abbr{
+	cursor: help;
+}
+
+button{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+code{
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+  font-size:0.9rem;
+  margin: 0;
+	padding: 0.2em;
+  white-space: break-spaces;
+}
+
+input{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+textarea{
+	font: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
+}

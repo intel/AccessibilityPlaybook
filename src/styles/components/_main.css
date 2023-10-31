@@ -1,0 +1,21 @@
+main{
+	font-size: 1.25rem;
+	grid-column: 2 / 6;
+	padding:1rem;
+}
+
+@media screen and (max-width:970px) {
+	main{
+		grid-column: 2 / 7;
+	}
+}
+
+@media screen and (max-width:560px) {
+	main{
+		grid-column: 1 / -1;
+	}
+}
+
+main:focus{
+	outline: 0;
+}

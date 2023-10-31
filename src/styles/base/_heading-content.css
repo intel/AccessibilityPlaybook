@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+	font-family: merriweather-bold, serif;
+}
+
+h1 {
+  font-size: 2.577rem;
+	margin-block-end:0.150em;
+	margin-block-start:0.492em;
+}
+
+h2 {
+	font-size: 2.034rem;
+	line-height: 1.3333;
+	margin-block-end:0.150em;
+	margin-block-start:0.789em;
+}
+
+h3 {
+	font-size: 1.605rem;
+	margin-block-end:0.150em;
+	margin-block-start:0.789em;
+}
+
+h4 {
+	font-size: 1.267rem;
+	margin-block-end:0.150em;
+	margin-block-start:0.789em;
+}
+
+h5 {
+	font-size: 1rem;
+	margin-block-end:0.150em;
+	margin-block-start:0.789em;
+}
+
+h6 {
+	font-size: 1rem;
+	margin-block-end:0.150em;
+	margin-block-start:0.789em;
+}
