@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/styles/styles.css" rel="stylesheet">
-  <title>{{title}}{{ ' - Open Source Accessibility Playbook' if '/index' not in page.filePathStem }}</title>
+  <link href="/AccessibilityPlaybook/styles/styles.css" rel="stylesheet">
+  <title>For End Users - Open Source Accessibility Playbook</title>
 </head>
 <body>
 	<a class="skip-link" href="#main">skip to the main content</a>
 	<header>
-		<img alt="logo" class="header--logo" src="/images/header-logo.svg">
+		<img alt="logo" class="header--logo" src="/AccessibilityPlaybook/images/header-logo.svg">
 		<div class="header--title">
-			<a class="header--homepage-link" href="/">Open Source Accessibility Playbook</a>
+			<a class="header--homepage-link" href="/AccessibilityPlaybook/">Open Source Accessibility Playbook</a>
 		</div>
 	</header>
 	<nav aria-label="site" class="nav--site">
@@ -31,22 +31,23 @@
 		</button>		
 		<ul>
 			<li>
-				<a {{ 'aria-current=page' if '/for-contributors' in page.url }} href="/for-contributors/">Contributors</a>
+				<a href="/AccessibilityPlaybook/for-contributors/">Contributors</a>
 			</li>
 			<li>
-				<a {{ 'aria-current=page' if '/for-consumers' in page.url }} href="/for-consumers/">Consumers</a>
+				<a href="/AccessibilityPlaybook/for-consumers/">Consumers</a>
 			</li>
 			<li>
-				<a {{ 'aria-current=page' if '/for-end-users' in page.url }} href="/for-end-users/">End Users</a>
+				<a aria-current="page" href="/AccessibilityPlaybook/for-end-users/">End Users</a>
 			</li>
 			<li>
-				<a {{ 'aria-current=page' if '/accessibility-tools' in page.url }} href="/accessibility-tools/">Accessibility Tools</a>
+				<a href="/AccessibilityPlaybook/accessibility-tools/">Accessibility Tools</a>
 			</li>
 		</ul>
 	</nav>
   <main id="main" tabindex="-1">
-			<h1>{{title | safe}}</h1>
-			{{content | safe}}
+			<h1>For End Users</h1>
+			<p><dfn>End users</dfn> are people with disabilities who actually use the results of open source projects. That use may be direct or indirect. An example of indirect use is when an open source library is used within a commercial website.</p>
+
   </main>
 	<footer>
 		<ul class="footer-content">
@@ -54,6 +55,6 @@
 			<li><a href="https://github.com/intel/AccessibilityPlaybook">This site's GitHub repository</a></li>
 		</ul>
 	</footer>
-	<script src="/scripts/responsive-nav.js"></script>
+	<script src="/AccessibilityPlaybook/scripts/responsive-nav.js"></script>
 </body>
 </html>

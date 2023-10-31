@@ -1,21 +1,60 @@
----
-layout: templates/basic-page.njk
-title: Accessibility Tools
----
-
-<p>Intro text</p>
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/AccessibilityPlaybook/styles/styles.css" rel="stylesheet">
+  <title>Accessibility Tools - Open Source Accessibility Playbook</title>
+</head>
+<body>
+	<a class="skip-link" href="#main">skip to the main content</a>
+	<header>
+		<img alt="logo" class="header--logo" src="/AccessibilityPlaybook/images/header-logo.svg">
+		<div class="header--title">
+			<a class="header--homepage-link" href="/AccessibilityPlaybook/">Open Source Accessibility Playbook</a>
+		</div>
+	</header>
+	<nav aria-label="site" class="nav--site">
+		<button aria-expanded="false" class="nav--site-toggle" type="button">
+			<svg height="20" width="20" viewBox="0 0 20 20">
+				<g class="burger">
+        	<line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" stroke-width="2"></line>
+				</g>
+				<g class="close">
+        	<line x1="3" y1="3" x2="17" y2="17" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="17" x2="17" y2="3" stroke="currentColor" stroke-width="2"></line>
+				</g>
+			</svg>
+			<span>Menu</span>
+		</button>		
+		<ul>
+			<li>
+				<a href="/AccessibilityPlaybook/for-contributors/">Contributors</a>
+			</li>
+			<li>
+				<a href="/AccessibilityPlaybook/for-consumers/">Consumers</a>
+			</li>
+			<li>
+				<a href="/AccessibilityPlaybook/for-end-users/">End Users</a>
+			</li>
+			<li>
+				<a aria-current="page" href="/AccessibilityPlaybook/accessibility-tools/">Accessibility Tools</a>
+			</li>
+		</ul>
+	</nav>
+  <main id="main" tabindex="-1">
+			<h1>Accessibility Tools</h1>
+			<p>Intro text</p>
 <h2>Working with GitHub repositories</h2>
-
 <dl>
 	<dt><a href="https://github.com/github/markdownlint-github">Markdown Linter</a></dt>
 	<dd>The Markdown Linter provides their recommended <a href="https://github.com/DavidAnson/markdownlint">markdownlint</a> configurations, and additional rules for use on GitHub open source and internal projects</dd>
-	<dt><a href="https://github.com/marketplace/actions/accessibility-alt-text-bot">Accessibility alt-text bot</dt>
+	<dt><a href="https://github.com/marketplace/actions/accessibility-alt-text-bot">Accessibility alt-text bot</a></dt>
 	<dd>This GitHub action reminds users to add alternative text to their images.</dd>
 </dl>
-
 <h2>Code testing</h2>
-
 <div aria-labelledby="code-testing-caption" class="scrollable" role="group" tabindex="0">
 	<table class="table">
 		<caption id="code-testing-caption">Code testing</caption>
@@ -49,9 +88,7 @@ title: Accessibility Tools
 		</tr>
 	</table>
 </div>
-
 <h2>Screen readers</h2>
-
 <div aria-labelledby="screen-readers-caption" class="scrollable" role="group" tabindex="0">
 	<table className="table a11y-tools">
 		<caption id="screen-readers-caption">Screen readers</caption>
@@ -108,3 +145,14 @@ title: Accessibility Tools
 		</tr>
 	</table>
 </div>
+
+  </main>
+	<footer>
+		<ul class="footer-content">
+			<li>Content on this site is covered by a <a href="https://creativecommons.org/licenses/by/4.0/">CC By 4.0 license</a></li>
+			<li><a href="https://github.com/intel/AccessibilityPlaybook">This site's GitHub repository</a></li>
+		</ul>
+	</footer>
+	<script src="/AccessibilityPlaybook/scripts/responsive-nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/AccessibilityPlaybook/styles/styles.css" rel="stylesheet">
+  <title>For Contributors - Open Source Accessibility Playbook</title>
+</head>
+<body>
+	<a class="skip-link" href="#main">skip to the main content</a>
+	<header>
+		<img alt="logo" class="header--logo" src="/AccessibilityPlaybook/images/header-logo.svg">
+		<div class="header--title">
+			<a class="header--homepage-link" href="/AccessibilityPlaybook/">Open Source Accessibility Playbook</a>
+		</div>
+	</header>
+	<nav aria-label="site" class="nav--site">
+		<button aria-expanded="false" class="nav--site-toggle" type="button">
+			<svg height="20" width="20" viewBox="0 0 20 20">
+				<g class="burger">
+        	<line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" stroke-width="2"></line>
+				</g>
+				<g class="close">
+        	<line x1="3" y1="3" x2="17" y2="17" stroke="currentColor" stroke-width="2"></line>
+        	<line x1="3" y1="17" x2="17" y2="3" stroke="currentColor" stroke-width="2"></line>
+				</g>
+			</svg>
+			<span>Menu</span>
+		</button>		
+		<ul>
+			<li>
+				<a aria-current="page" href="/AccessibilityPlaybook/for-contributors/">Contributors</a>
+			</li>
+			<li>
+				<a href="/AccessibilityPlaybook/for-consumers/">Consumers</a>
+			</li>
+			<li>
+				<a href="/AccessibilityPlaybook/for-end-users/">End Users</a>
+			</li>
+			<li>
+				<a href="/AccessibilityPlaybook/accessibility-tools/">Accessibility Tools</a>
+			</li>
+		</ul>
+	</nav>
+  <main id="main" tabindex="-1">
+			<h1>For Contributors</h1>
+			<p><dfn>Contributors</dfn> are people who contribute to OSS (Open Source Software) projects.</p>
+<h2>Empowering contributors with disabilities to contribute to your project</h2>
+<p>There are several ways you can show contributors with disabilities, both current and potential, that they are welcome.</p>
+<h2>Include a welcoming statement in your contributing file</h2>
+<p>Creating a <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors">contributing file</a> for your repository is a great way to let people know how they can contribute to your project. There are several common places to put a <code>contributing</code> file (the project root, in a folder like <code>docs</code> or <code>.github</code>). We prefer putting it in the project root as it's easier for people to find.</p>
+<p>In your <code>contributing</code> file, you should clearly state that contributors with disabilities are welcome. You should also invite them to contact the project team if they need an accommodation to be able to contribute. A good place to put contact details relating to accessibility is in the <code>accessibility.md</code> file in the root of your repo.</p>
+<p>Consider adapting the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a> code of conduct for open source communities. This document clearly lays out expectations for anyone contributing to your project.</p>
+<h2>Ensure the project documentation is accessible</h2>
+<p>It's essential that your project's documentation is accessible. This includes:</p>
+<ul>
+<li>Using semantically-correct headings to mark up chunks of content.</li>
+<li>Ensuring each image has a suitable <code>alt</code> attribute. You can use <a href="https://github.com/marketplace/actions/accessibility-alt-text-bot">Github's alt text bot</a> to help with this.</li>
+<li>Not relying on complex images to describe the application; that information should also be described in well-marked-up <abbr title="HyperText Markup Language">HTML</abbr> in the main body of your content.</li>
+<li>Not using screen grabs of tables.</li>
+<li>If you use videos, ensure they have captions. If your videos are of the kind that has some music playing in the background as someone silently demonstrates how to do something, that information needs to be available, in well-marked-up HTML, on the same page as the video.</li>
+<li>If you provide users with a template to complete when reporting an issue, ensure that is well marked up.</li>
+</ul>
+<p>Consider adding an <code>accessibility.md</code> file to the root of your repo. This is where you can list specifics about the accessibility of your project.</p>
+<h2>Add an accessibility.md file</h2>
+<p>An <code>accessibility.md</code> file should include the following information:</p>
+<ol>
+<li>If you are aiming towards an accessibility standard, for example: WCAG 2.2 Levels A and AA, what that standard is.</li>
+<li>How to report accessibility bugs. For example:
+<ul>
+<li>do you want Github issues to mention accessibility in the issue title?</li>
+<li>alternate ways to contact a person on the project</li>
+</ul>
+</li>
+<li>How you prioritize accessibility bugs</li>
+<li>Ways for people to see what accessibility issues are open and closed. For example: do you have a label for accessibility issues?</li>
+<li>How you test for accessibility. For example:
+<ul>
+<li>which screen readers do you test with?</li>
+<li>do you test with Windows high-contrast mode?</li>
+<li>do you test for keyboard accessibility?</li>
+</ul>
+</li>
+<li>The date that the document was last updated</li>
+</ol>
+
+  </main>
+	<footer>
+		<ul class="footer-content">
+			<li>Content on this site is covered by a <a href="https://creativecommons.org/licenses/by/4.0/">CC By 4.0 license</a></li>
+			<li><a href="https://github.com/intel/AccessibilityPlaybook">This site's GitHub repository</a></li>
+		</ul>
+	</footer>
+	<script src="/AccessibilityPlaybook/scripts/responsive-nav.js"></script>
+</body>
+</html>
