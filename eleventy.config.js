@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images/*");
   // Return your Object options:
   return {
-    pathPrefix: "/AccessibilityPlaybook-fs/",
+    pathPrefix: "/AccessibilityPlaybook/",
     dir: {
       input: "src",
       output: "site"
